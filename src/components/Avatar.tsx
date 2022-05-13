@@ -19,7 +19,8 @@ const Avatar = (props: AvatarProps) => {
 
 const styles = StyleSheet.create({
   wrapperStyle:{
-    backgroundColor:"red"
+    backgroundColor:"red",
+    
   }
 })
 
