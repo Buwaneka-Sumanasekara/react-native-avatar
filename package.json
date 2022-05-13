@@ -11,6 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/Buwaneka-Sumanasekara/react-native-avatar.git"
   },
+  "main": "dist/index",
   "author": "Buwaneka Sumanasekara",
   "license": "ISC",
   "bugs": {
@@ -45,5 +46,8 @@
     "prereleaseBranches": [
       "next"
     ]
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   }
 }
