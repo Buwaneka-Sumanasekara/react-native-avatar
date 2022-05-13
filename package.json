@@ -44,7 +44,6 @@
     "baseBranch": "master",
     "prereleaseBranches": [
       "next"
-    ],
-    "onlyPublishWithReleaseLabel": true
+    ]
   }
 }
