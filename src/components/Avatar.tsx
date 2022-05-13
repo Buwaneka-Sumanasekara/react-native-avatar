@@ -1,19 +1,32 @@
 import React from 'react';
-import { ActivityIndicator, Button, View, StyleSheet } from 'react-native';
+import { ActivityIndicator, Text, View, StyleSheet,TouchableOpacity } from 'react-native';
+import {getAcronymText} from "../utils";
 
 interface AvatarProps {
-  loading?: boolean;
+  size: number|string ,
+  title:string,
+  onPress?:() => void
 }
+
 
 const Avatar = (props: AvatarProps) => {
   const {
-    loading,
+    size,
+    title,
+    onPress
   } = props;
 
+  const wrapperStyle:any={
+      width:size,
+      height:size,
+      borderRadius:size
+  }
+
+  const AvatarWrapperComponent:any=(onPress?TouchableOpacity:View);
   return (
-    <View style={styles.wrapperStyle}>
-      
-    </View>
+    <AvatarWrapperComponent style={[styles.wrapperStyle,wrapperStyle]}>
+      <Text>{getAcronymText(title)}</Text>
+    </AvatarWrapperComponent>
   );
 };
 
