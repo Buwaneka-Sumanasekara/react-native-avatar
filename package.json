@@ -31,10 +31,11 @@
   },
   "auto": {
     "plugins": [
-      "npm",
-      "all-contributors",
-      "conventional-commits",
-      "first-time-contributor"
+      "npm"
+    ],
+    "baseBranch": "main",
+    "prereleaseBranches": [
+      "next"
     ],
     "onlyPublishWithReleaseLabel": true
   }
