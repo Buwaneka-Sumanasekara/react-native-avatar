@@ -1,6 +1,6 @@
 {
   "name": "@buwa/react-native-avatar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Avatar for react native",
   "scripts": {
     "storybook": "start-storybook",
@@ -47,9 +47,8 @@
       "next"
     ]
   },
-    "publishConfig": {
-      "registry": "https://registry.npmjs.org/",
-      "access": "public"
-    }
-
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  }
 }
