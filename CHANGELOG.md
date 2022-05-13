@@ -1,3 +1,15 @@
+# v1.0.3 (Fri May 13 2022)
+
+#### ⚠️ Pushed to `master`
+
+- Create README.md ([@Buwaneka-Sumanasekara](https://github.com/Buwaneka-Sumanasekara))
+
+#### Authors: 1
+
+- Buwaneka Sumanasekara ([@Buwaneka-Sumanasekara](https://github.com/Buwaneka-Sumanasekara))
+
+---
+
 # v1.0.2 (Fri May 13 2022)
 
 #### 🐛 Bug Fix
