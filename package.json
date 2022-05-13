@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Avatar for react native",
   "scripts": {
-    "storybook": "start-storybook"
+    "storybook": "start-storybook",
+    "build": "rm -rf dist && cp -R src dist",
+    "release": "auto shipit"
   },
   "repository": {
     "type": "git",
