@@ -22,10 +22,22 @@ const Template = args => {
 
 export const Default = Template.bind({});
 Default.args={
+  [Attributes.TITLE]:'Hello',
   [Attributes.SIZE]:20
 }
 
 Default.argTypes = {
+  [Attributes.TITLE]: {
+    name: Attributes.TITLE,
+    type: { name: 'string' },
+    description: Attributes.TITLE,
+    defaultValue: 'Hello',
+    table: {
+      type: { summary: 'string' },
+      defaultValue: { summary: false },
+    },
+    control: 'text',
+  },
   [Attributes.SIZE]: {
     name: Attributes.SIZE,
     type: { name: 'number' },
@@ -50,4 +62,11 @@ Default.argTypes = {
 export const WithImage = Template.bind({});
 WithImage.args = {
   ...Default.args,
+  [Attributes.SOURCE]:{uri:"https://picsum.photos/200"}
+};
+
+export const CustomTitleStyle = Template.bind({});
+CustomTitleStyle.args = {
+  ...Default.args,
+  [Attributes.TITLE_STYLE]:{color:"red"}
 };

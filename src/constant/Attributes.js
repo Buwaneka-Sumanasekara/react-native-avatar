@@ -1,5 +1,7 @@
 export default {
     SIZE: 'size',
-    TITLE:'title'
+    TITLE:'title',
+    SOURCE:'source',
+    TITLE_STYLE:'titleStyle'
 }
   
