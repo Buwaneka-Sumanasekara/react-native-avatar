@@ -1,3 +1,16 @@
+# v1.0.2 (Fri May 13 2022)
+
+#### 🐛 Bug Fix
+
+- update 2 [#14](https://github.com/Buwaneka-Sumanasekara/react-native-avatar/pull/14) ([@Buwaneka-Sumanasekara](https://github.com/Buwaneka-Sumanasekara))
+- update [#13](https://github.com/Buwaneka-Sumanasekara/react-native-avatar/pull/13) ([@Buwaneka-Sumanasekara](https://github.com/Buwaneka-Sumanasekara))
+
+#### Authors: 1
+
+- Buwaneka Sumanasekara ([@Buwaneka-Sumanasekara](https://github.com/Buwaneka-Sumanasekara))
+
+---
+
 # v1.0.1 (Fri May 13 2022)
 
 #### 🐛 Bug Fix
