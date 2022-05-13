@@ -27,7 +27,8 @@
     "react-native-web": "^0.17.7"
   },
   "devDependencies": {
-    "auto": "^10.36.5"
+    "auto": "^10.36.5",
+    "babel-plugin-react-native-web": "^0.17.7"
   },
   "auto": {
     "plugins": [
